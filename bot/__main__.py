@@ -8,6 +8,9 @@ from .config import *
 from .worker import *
 from .devtools import *
 from .FastTelethon import *
+import os
+from keep_alive import keep_alive
+keep_alive()
 LOGS.info("Starting...")
 
 try:
